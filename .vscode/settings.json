@@ -1,0 +1,8 @@
+{
+    "python.defaultInterpreterPath": "C:\\Users\\abish\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\corrective-rag-exHQaa27-py3.13\\Scripts\\python.exe",
+    "python.analysis.extraPaths": [
+        "."
+    ],
+    "python-envs.defaultEnvManager": "ms-python.python:poetry",
+    "python-envs.defaultPackageManager": "ms-python.python:poetry"
+}
