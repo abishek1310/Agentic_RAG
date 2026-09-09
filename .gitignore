@@ -218,3 +218,5 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Vector store (regenerate with: python -m graph.ingestion)
+chroma_db/
