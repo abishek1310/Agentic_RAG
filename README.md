@@ -1,6 +1,6 @@
-# Corrective RAG
+# Agentic RAG
 
-An adaptive RAG pipeline built with [LangGraph](https://langchain-ai.github.io/langgraph/), running entirely on local models via [Ollama](https://ollama.com/) with [Tavily](https://tavily.com/) for web search.
+A self-correcting RAG pipeline built with [LangGraph](https://langchain-ai.github.io/langgraph/), running entirely on local models via [Ollama](https://ollama.com/) with [Tavily](https://tavily.com/) for web search.
 
 The graph combines three patterns:
 
