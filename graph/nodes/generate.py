@@ -17,4 +17,4 @@ def generate_answer(state: GraphState) -> Dict[str, Any]:
     generated_answer = chain.invoke(
         {"question": question, "context": "\n\n".join(documents)}
     )
-    return {"answer": generated_answer}
+    return {"answer": generated_answer, "retries": state.get("retries", 0) + 1}

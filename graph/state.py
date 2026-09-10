@@ -12,6 +12,8 @@ class GraphState(TypedDict):
         Whether the answer has to be generated from a web response or not
     retrieved_docs: List[str]
         The documents retrieved from the vector store
+    retries: int
+        How many times the answer has been generated, to bound the Self-RAG loop
 
     """
 
@@ -19,3 +21,4 @@ class GraphState(TypedDict):
     answer: str
     web_response: bool
     retrieved_docs: List[str]
+    retries: int
